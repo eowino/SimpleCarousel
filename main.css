@@ -1,0 +1,66 @@
+body {
+  background-color: #F2F2F2;
+  font-size: 16px;
+  box-sizing: border-box; }
+
+.container {
+  width: 1024px;
+  padding: 16px;
+  background-color: #FFF;
+  margin: 5% auto; }
+
+.carousel {
+  display: table;
+  height: 100%;
+  overflow: hidden;
+  width: 100%; }
+  .carousel .carousel-arrow {
+    display: table-cell;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 8%; }
+  .carousel .carousel-button {
+    background: none;
+    border: none; }
+    .carousel .carousel-button .fa {
+      font-size: 32px;
+      color: #2ABFD4; }
+      .carousel .carousel-button .fa:hover, .carousel .carousel-button .fa:focus {
+        color: #224687;
+        cursor: pointer; }
+  .carousel .carousel-left-arrow {
+    padding-right: 0.75em; }
+  .carousel .carousel-right-arrow {
+    padding-left: 0.75em; }
+
+.carousel-images {
+  width: 200%;
+  margin-left: 0%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+.carousel-content {
+  display: table-cell;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+  width: 84%; }
+
+.item {
+  display: table-cell;
+  padding: 0 0.5em;
+  text-align: center;
+  width: 8.9%; }
+  .item img {
+    display: block;
+    height: 150px;
+    max-width: 100%;
+    vertical-align: middle;
+    width: auto; }
+
+/*# sourceMappingURL=main.css.map */
